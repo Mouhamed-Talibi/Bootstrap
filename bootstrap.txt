@@ -1,0 +1,45 @@
+// shortcuts :
+--------------
+    bg-colorName : 
+        the background color ( danger, primary, warning, secondary, success ...)
+
+    align-items-place : 
+        choose when to place elements horizontaly 
+
+    justify-content-position : 
+        choose when to place elements vertically
+
+    text-colorName : 
+        change the color of the text
+
+    
+
+
+// Grid system : 
+----------------
+    * each column has 12 rows
+    * when we want to use the grid system we should create a prent div (.row)
+    * then we created divs inside the parent with the (.col-(num_of_rows)) | example : col-4 = 4 + 4 + 4 = 12
+    * columns sizes are four :
+        [ 
+            col    > xtra-small
+            col-sm > small screens 
+            col-md > medium screens 
+            col-lg > large screens 
+            col-xl > x-large screens 
+        ]
+
+    * usage of columns sizes : 
+        col-size-numsRows > example : col-lg-3 == Four colmns in the same level
+        advanced example  > col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2
+
+
+// Elements Position : 
+----------------------
+    * if you want to change the position of all cols in a row you have to put ( align-items-position ) in the row class
+    * if you want to change the position of one col in a row you have to put ( align-self-position ) in the col class
+
+
+// Colors :
+-----------
+    * when you want to change the color of a text you have to write (text-colorName)
