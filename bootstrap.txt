@@ -12,7 +12,44 @@
     text-colorName : 
         change the color of the text
 
+    alert alert-color :
+        specify the alert message
+
+    btn btn-color :
+        specify the style and the color of the botton 
+
+    btn btn-outline-color :
+        this style has the borders with the sapme color and when focus on the button it get the style of btn btn-color 
     
+    btn-group :
+        group the buttons 
+
+    btn-toolbar :
+        create a toolbar of group buttons 
+
+    btn-group-size :
+        specify the size of thr group 
+
+    m-number : 
+        set the margin | note that the number represent 10 like 2 == 20px 
+
+    mt-num :
+        set the margin-top 
+
+    mb-num : 
+        set the margin bottom 
+
+    ml-num :
+        set the margin left 
+
+    mr-num :
+        set the margin right   
+    
+    w-number : 
+        set the width of an element | example : w-50 = width 50% 
+
+    card-img-top :
+        set a curve to the imahe from the top 
 
 
 // Grid system : 
